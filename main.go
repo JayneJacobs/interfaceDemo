@@ -11,7 +11,7 @@ type human interface {
 }
 
 func (p person) speak() {
-	fmt.Printf("Hi I am %s and here is my type %T \n", p.first, p)
+	fmt.Printf("Hi I am %s and here is my concrete type %T \n", p.first, p)
 }
 
 func main() {
